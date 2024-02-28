@@ -1,0 +1,43 @@
+
+import machine #Importing libraries...
+import time
+
+led = machine.Pin(25, machine.Pin.OUT) #Led is an output pin at slot 25.
+
+while True: #While true do S.O.S in morse code by using blinking led onboard.
+    led(on)
+    time.sleep(0.5)
+    led(off)
+    time.sleep(0.5)
+    led(on)
+    time.sleep(0.5)
+    led(off)
+    time.sleep(0.5)
+    led(on)
+    time.sleep(0.5)
+    led(off)
+    time.sleep(0.5)
+    led(on)
+    time.sleep(1)
+    led(off)
+    time.sleep(1)
+    led(on)
+    time.sleep(1)
+    led(off)
+    time.sleep(1)
+    led(on)
+    time.sleep(1)
+    led(off)
+    time.sleep(1)
+    led(on)
+    time.sleep(0.5)
+    led(off)
+    time.sleep(0.5)
+    led(on)
+    time.sleep(0.5)
+    led(off)
+    time.sleep(0.5)
+    led(on)
+    time.sleep(0.5)
+    led(off)
+    time.sleep(0.5)
